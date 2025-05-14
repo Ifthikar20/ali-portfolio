@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali's Cybersecurity Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="matrix-background"></div>
+    
+    <div class="container">
+        <nav class="navbar">
+            <div class="nav-logo">
+                <span class="logo-text">&lt;AS/&gt;</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <header>
+            <div class="hero">
+                <div class="glitch"></div>
+                <div class="hero-content">
+                    <h1 class="glitch-text">Ali Seyed</h1>
+                    <p class="tagline">Cybersecurity Engineer & Ethical Hacker</p>
+                    <div class="terminal">
+                        <div class="terminal-header">
+                            <div class="terminal-button"></div>
+                            <div class="terminal-button"></div>
+                            <div class="terminal-button"></div>
+                        </div>
+                        <div class="terminal-body">
+                            <div class="line">
+                                <span class="prompt">$</span> 
+                                <span class="command">./launch_portfolio.sh</span>
+                            </div>
+                            <div class="line">Initializing secure connection...</div>
+                            <div class="line">Running security protocols...</div>
+                            <div class="line">Welcome to my portfolio</div>
+                            <div class="line">
+                                <span class="prompt">$</span> 
+                                <span class="command blink">_</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-hackerrank"></i></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="about" id="about">
+            <div class="section-title">
+                <h2>About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="profile-image">
+                    <div class="image-container">
+                        <!-- Replace with your actual image -->
+                        <div class="placeholder-image">AS</div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>Hi there! I'm Ali, a dedicated cybersecurity professional with expertise in network security, vulnerability assessment, penetration testing, and digital forensics.</p>
+                    <p>My mission is to secure digital environments against evolving cyber threats through innovative solutions and a proactive security mindset.</p>
+                    <div class="skills">
+                        <div class="skill-tag">Penetration Testing</div>
+                        <div class="skill-tag">Network Security</div>
+                        <div class="skill-tag">Malware Analysis</div>
+                        <div class="skill-tag">SIEM</div>
+                        <div class="skill-tag">Python</div>
+                        <div class="skill-tag">Ethical Hacking</div>
+                        <div class="skill-tag">Cryptography</div>
+                        <div class="skill-tag">Incident Response</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects" id="projects">
+            <div class="section-title">
+                <h2>Cybersecurity Projects</h2>
+            </div>
+            
+            <!-- Project 1 -->
+            <div class="project-showcase">
+                <div class="project-header">
+                    <h3>Network Intrusion Detection System</h3>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Machine Learning</span>
+                        <span>Network Security</span>
+                    </div>
+                </div>
+                
+                <div class="project-carousel">
+                    <div class="carousel-container">
+                        <div class="carousel-track" id="carousel-1">
+                            <div class="carousel-slide">
+                                <div class="carousel-image">
+                                    <div class="placeholder-project">
+                                        <i class="fas fa-shield-alt"></i>
+                                        <p>Dashboard Overview</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-slide">
+                                <div class="carousel-image">
+                                    <div class="placeholder-project">
+                                        <i class="fas fa-chart-network"></i>
+                                        <p>Network Map</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-slide">
+                                <div class="carousel-image">
+                                    <div class="placeholder-project">
+                                        <i class="fas fa-chart-line"></i>
+                                        <p>Alert Statistics</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="carousel-nav">
+                            <button class="carousel-prev" data-carousel="carousel-1"><i class="fas fa-chevron-left"></i></button>
+                            <div class="carousel-dots" id="dots-1"></div>
+                            <button class="carousel-next" data-carousel="carousel-1"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                    
+                    <div class="project-details">
+                        <div class="project-description">
+                            <p>A custom-built network intrusion detection system that uses machine learning algorithms to identify suspicious network activities and potential security breaches in real-time.</p>
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>Real-time network traffic analysis using packet capture</li>
+                                <li>Anomaly detection using supervised machine learning</li>
+                                <li>Custom rule engine for known attack pattern recognition</li>
+                                <li>Comprehensive dashboard with alert prioritization</li>
+                                <li>Automated response capabilities for threat mitigation</li>
+                            </ul>
+                            <h4>Technical Implementation:</h4>
+                            <p>Built using Python with Scikit-learn for ML models, Scapy for packet analysis, and Flask for the web dashboard. The system was tested against the DARPA dataset and achieved 97% accuracy in detecting known attack vectors.</p>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 2 -->
+            <div class="project-showcase">
+                <div class="project-header">
+                    <h3>Secure File Encryption Tool</h3>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Cryptography</span>
+                        <span>GUI Application</span>
+                    </div>
+                </div>
+                
+                <div class="project-carousel">
+                    <div class="carousel-container">
+                        <div class="carousel-track" id="carousel-2">
+                            <div class="carousel-slide">
+                                <div class="carousel-image">
+                                    <div class="placeholder-project">
+                                        <i class="fas fa-lock"></i>
+                                        <p>Encryption Interface</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-slide">
+                                <div class="carousel-image">
+                                    <div class="placeholder-project">
+                                        <i class="fas fa-key"></i>
+                                        <p>Key Management</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-slide">
+                                <div class="carousel-image">
+                                    <div class="placeholder-project">
+                                        <i class="fas fa-file-alt"></i>
+                                        <p>File Browser</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="carousel-nav">
+                            <button class="carousel-prev" data-carousel="carousel-2"><i class="fas fa-chevron-left"></i></button>
+                            <div class="carousel-dots" id="dots-2"></div>
+                            <button class="carousel-next" data-carousel="carousel-2"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                    
+                    <div class="project-details">
+                        <div class="project-description">
+                            <p>A secure file encryption application that uses modern encryption algorithms to protect sensitive files with a user-friendly interface.</p>
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>AES-256 encryption with secure key management</li>
+                                <li>Password-based key derivation with PBKDF2</li>
+                                <li>File integrity verification using HMAC</li>
+                                <li>Secure deletion of original files</li>
+                                <li>Cross-platform compatibility (Windows, MacOS, Linux)</li>
+                            </ul>
+                            <h4>Technical Implementation:</h4>
+                            <p>Developed using Python with the cryptography library for encryption operations and PyQt5 for the GUI. The application follows cryptographic best practices and has undergone security auditing to identify and mitigate potential vulnerabilities.</p>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-download"></i> Download</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 3 -->
+            <div class="project-showcase">
+                <div class="project-header">
+                    <h3>Vulnerability Scanner and Reporter</h3>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Network Security</span>
+                        <span>Web Security</span>
+                    </div>
+                </div>
+                
+                <div class="project-carousel">
+                    <div class="carousel-container">
+                        <div class="carousel-track" id="carousel-3">
+                            <div class="carousel-slide">
+                                <div class="carousel-image">
+                                    <div class="placeholder-project">
+                                        <i class="fas fa-search"></i>
+                                        <p>Scan Interface</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-slide">
+                                <div class="carousel-image">
+                                    <div class="placeholder-project">
+                                        <i class="fas fa-bug"></i>
+                                        <p>Vulnerability Details</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-slide">
+                                <div class="carousel-image">
+                                    <div class="placeholder-project">
+                                        <i class="fas fa-file-pdf"></i>
+                                        <p>Report Generation</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="carousel-nav">
+                            <button class="carousel-prev" data-carousel="carousel-3"><i class="fas fa-chevron-left"></i></button>
+                            <div class="carousel-dots" id="dots-3"></div>
+                            <button class="carousel-next" data-carousel="carousel-3"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                    
+                    <div class="project-details">
+                        <div class="project-description">
+                            <p>An automated vulnerability assessment tool designed to scan networks and web applications for security vulnerabilities, with comprehensive reporting and remediation guidance.</p>
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>Comprehensive port scanning and service enumeration</li>
+                                <li>Web application vulnerability scanning (SQLi, XSS, CSRF)</li>
+                                <li>SSL/TLS configuration analysis</li>
+                                <li>Misconfigurations and outdated software detection</li>
+                                <li>Detailed reports with severity ratings and remediation steps</li>
+                            </ul>
+                            <h4>Technical Implementation:</h4>
+                            <p>Built with Python, leveraging libraries like Nmap, SQLmap, and OpenVAS through APIs. The scanner maintains a regularly updated vulnerability database and generates detailed HTML and PDF reports using Jinja2 templates and ReportLab.</p>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-file-alt"></i> Documentation</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="achievements" id="achievements">
+            <div class="section-title">
+                <h2>Certifications & Achievements</h2>
+            </div>
+            <div class="achievements-timeline">
+                <div class="achievement-item">
+                    <div class="achievement-date">2023</div>
+                    <div class="achievement-content">
+                        <h3>OSCP Certification</h3>
+                        <p>Achieved Offensive Security Certified Professional certification with a perfect score in the 24-hour penetration testing exam.</p>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-date">2022</div>
+                    <div class="achievement-content">
+                        <h3>CTF Champion - DefCon</h3>
+                        <p>Ranked in the top 10 in the prestigious DefCon CTF competition, solving complex challenges in web exploitation and reverse engineering.</p>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-date">2021</div>
+                    <div class="achievement-content">
+                        <h3>Published Security Research</h3>
+                        <p>Discovered and responsibly disclosed critical vulnerabilities in popular IoT devices, leading to security patches that protected millions of users.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="section-title">
+                <h2>Contact</h2>
+            </div>
+            <div class="contact-content">
+                <p>Interested in cybersecurity collaboration or consulting? Let's connect.</p>
+                <a href="mailto:contact@example.com" class="contact-button">initiate_contact.sh <i class="fas fa-terminal"></i></a>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>secure@aliseyed.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-key"></i>
+                        <span>PGP: 0xF21A8F39B</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>San Francisco, CA</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Ali Seyed | All connections encrypted | No cookies stored</p>
+        </footer>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
